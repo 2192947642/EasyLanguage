@@ -1,0 +1,13 @@
+ //当条件判断不以else 为结束时 需要添加;
+
+ let a=3;
+ if(a>=2&&a<=2){
+     print("&&")
+ }
+ elif(a==6){
+     print("elif执行")
+ }
+ else{
+     print("else执行")
+ };
+ print("程序运行结束")
