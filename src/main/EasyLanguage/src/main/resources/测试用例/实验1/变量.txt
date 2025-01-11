@@ -1,0 +1,17 @@
+//使用let 定义
+//按类型分为 数组变量(自动扩容) 字符串变量 数值变量 类变量
+//原生方法 print(xxx);打印某个内容 input() 从窗口读取输入内容 length(xxx)获得数组长度 strlen(xxx)获得字符串长度
+let b=[1,2,3];
+b[10]=2;
+print(b);
+let c="编译原理太难了";
+print(c);
+print("数组单个元素打印")
+for(let i=0;i<length(b);i+=1){
+    print(b[i])
+}
+//字符串单个元素打印
+for(let i=0;i<strlen(c);i+=1){
+    print(c[i])
+}
+print("程序运行结束")

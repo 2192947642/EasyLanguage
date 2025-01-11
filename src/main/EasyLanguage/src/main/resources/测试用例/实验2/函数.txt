@@ -1,0 +1,21 @@
+//作用域说明
+//作用域 全局作用域,块作用域,静态作用域,方法作用域....
+//闭包函数定义
+let b=$(a,b,c)=>{
+    print(b);
+    print(a+b+c);
+}
+function sayHello(){
+   print("hello");
+}
+sayHello();
+b(1,2,3);
+//嵌套函数
+function fib(n){
+  if (n <= 1) {
+    return n;
+  };
+   return fib(n - 1) + fib(n - 2);
+}
+print("result = "+fib(6))
+print("程序运行结束")

@@ -1,0 +1,25 @@
+//实现 do-while,while,for,break,continue
+
+let a=1;
+for(a=0;a<10;a+=2){
+    if(a==6){
+       continue;
+    };
+    if(a%2==0){
+     print(a);
+    };
+    if(a==8){
+      break;
+    }
+
+}
+print("while");
+while(a==8){
+
+  print(123);
+   a+=1;
+}
+do{
+   print(a);
+}while(a<8)
+print("程序运行结束")
